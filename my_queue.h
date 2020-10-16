@@ -10,7 +10,7 @@
 
 #include <stdint.h>
 
-#define QUEUE_SIZE 1024
+#define QUEUE_SIZE 16
 
 typedef struct
 {
