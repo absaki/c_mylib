@@ -4,7 +4,7 @@
  *  Created on: Oct 16, 2020
  *      Author: absaki
  */
-#include "midi_decoder.h"
+#include "my_queue.h"
 
 int queue_init(t_ringbuff *buff)
 {
