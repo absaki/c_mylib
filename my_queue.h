@@ -5,8 +5,8 @@
  *      Author: absaki
  */
 
-#ifndef INC_MIDI_DECODER_H_
-#define INC_MIDI_DECODER_H_
+#ifndef MY_QUEUE_H
+#define MY_QUEUE_H
 
 #include <stdint.h>
 
@@ -26,4 +26,4 @@ int queue_enqueue(t_ringbuff *buff, unsigned char value);
 int queue_dequeue(t_ringbuff *buff);
 
 
-#endif /* INC_MIDI_DECODER_H_ */
+#endif 
